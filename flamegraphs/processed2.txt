@@ -1,0 +1,30 @@
+Statistical profiling result from isolate-0x104049800-v8.log, (2 ticks, 0 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+
+ [C++]:
+   ticks  total  nonlib   name
+      2  100.0%  100.0%  T v8::internal::Genesis::InstallExtensions(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Context>, v8::ExtensionConfiguration*)
+
+ [Summary]:
+   ticks  total  nonlib   name
+      0    0.0%    0.0%  JavaScript
+      2  100.0%  100.0%  C++
+      0    0.0%    0.0%  GC
+      0    0.0%          Shared libraries
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+      2  100.0%  T v8::internal::Genesis::InstallExtensions(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Context>, v8::ExtensionConfiguration*)
+
